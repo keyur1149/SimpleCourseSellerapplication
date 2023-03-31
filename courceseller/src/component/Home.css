@@ -1,0 +1,164 @@
+.order-container {
+    width: 600px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.order-container>div {
+    margin: 10px 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(33, 148, 33);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.course-list-item {
+    width: 400px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(81, 236, 81);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.course-list-item:hover {
+    background-color: rgb(173, 234, 173);
+    cursor: pointer;
+}
+
+.course-list-item-title {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.course-list-item-price {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.course-list-item-description {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* Order.css .Order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Order li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Order li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    color: red;
+    cursor: pointer;
+}
+
+.Order select {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Order button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+li button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* li button:hover {
+    background-color: #999;
+} */
+
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
